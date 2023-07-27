@@ -36,10 +36,10 @@ use mailparse::*;
 
   
 
-           pub async fn fetch_mails(&mut self) -> String  {
+           pub async fn fetch_mails(&mut self, mail_address: &str) -> String  {
             // Google Mail IMAP server address and port
             let gmail_auth = GmailOAuth2 {
-                user: String::from("bjoclurban@gmail.com"),
+                user: String::from(mail_address),
                 access_token: String::clone(&self.token),
             };
             println!("{}", gmail_auth.access_token);

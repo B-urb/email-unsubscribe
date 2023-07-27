@@ -105,6 +105,11 @@ async fn main() {
       Err(_) => "CLIENT_ID".to_string(),
       };
 
+    let mail_address: String = match std::env::var("MAIL_ADDRESS") {
+        Ok(val) => val,
+        Err(_) => "MAIL_ADDRESS".to_string(),
+    };
+
 
   let app = tauri::Builder::default()
   .invoke_handler(tauri::generate_handler![get_client_id])
@@ -119,7 +124,7 @@ async fn main() {
       app_handle.emit_all("redirect-data", item.clone()).expect("Failed to emit event");
       let token = get_access_token(&item, &client_id, &client_secret, "http://localhost:8000").await.unwrap();
       let mut email_handler = EmailHandler::new(token);
-      let mails = email_handler.fetch_mails().await; 
+      let mails = email_handler.fetch_mails(&mail_address).await;
       app_handle.emit_all("mail-content", mails).expect("Failed to emit event");
   }
 
