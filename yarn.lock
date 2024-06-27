@@ -137,9 +137,9 @@
     "@tauri-apps/cli-win32-x64-msvc" "1.5.14"
 
 "@types/node@^20.0.0":
-  version "20.14.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.5.tgz#fe35e3022ebe58b8f201580eb24e1fcfc0f2487d"
-  integrity sha512-aoRR+fJkZT2l0aGOJhuA8frnCSoNX6W7U2mpNq63+BxBIj5BQFt8rHy627kijCmm63ijdSdwvGgpUsU6MBsZZA==
+  version "20.14.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.9.tgz#12e8e765ab27f8c421a1820c99f5f313a933b420"
+  integrity sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==
   dependencies:
     undici-types "~5.26.4"
 
@@ -208,9 +208,9 @@ lettercoder@^0.0.7:
     base64-js "^1.5.1"
 
 letterparser@^0.1.0:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/letterparser/-/letterparser-0.1.6.tgz#559ac506b9629f4d2f3b03bb13b2ea1e873cc05b"
-  integrity sha512-rK9gAA1TWMHY9Jufi4f3sCEtJ6xLUEG+9AzFfFzbFKRj3zG6G2WDXR+nISyrRozelGBlFceQU5t29/82guXdqg==
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/letterparser/-/letterparser-0.1.7.tgz#1ad5c6e30bf989ddf5f7c2875c35093e80bbf84a"
+  integrity sha512-Q7l8STh+KZZymGVawAgeqi4ILoHr0SKZ9fyC/sEGoGwk+bPLhwg9DJ1LFHzTfJdVC2RgPbfnUNECSSaWQsWF/g==
   dependencies:
     base64-js "^1.5.1"
     lettercoder "^0.0.7"
@@ -321,9 +321,9 @@ tslib@^2.4.0:
   integrity sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==
 
 typescript@^5.0.0:
-  version "5.4.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
-  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.2.tgz#c26f023cb0054e657ce04f72583ea2d85f8d0507"
+  integrity sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==
 
 undici-types@~5.26.4:
   version "5.26.5"
