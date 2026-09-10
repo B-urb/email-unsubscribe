@@ -19,12 +19,12 @@ serde = { version = "1.0.200", features = ["derive"] }
 tauri = {version = "1.6.2", features = ["api-all"] }
 hyper = { version = "1.3.1", features = ["full"] }
 tokio = { version = "1.37.0", features = ["full"] }
-reqwest = { version = "0.12.4", features = ["json"] }
+reqwest = { version = "0.13.0", features = ["json"] }
 imap = "2.4.1"
 dotenv = "0.15.0"
 native-tls = "0.2.11"
-base64 = "0.22.1"
-mailparse = "0.15.0"
+base64 = "0.23.0"
+mailparse = "0.17.0"
 
 [features]
 # by default Tauri runs in production mode
